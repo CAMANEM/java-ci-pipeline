@@ -2,6 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hola mundus");
+        Calculator calculator = new Calculator();
+        calculator.init();
     }
 }
